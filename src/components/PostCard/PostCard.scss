@@ -1,0 +1,41 @@
+.post-card {
+  max-width: 300px;
+  border: 1px solid #fff;
+}
+
+.post-card__img {
+  width: 300px;
+  height: 300px;
+}
+
+.post-card__container {
+  padding: 15px;
+}
+
+.post-card__title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1em;
+}
+
+.post-card__autor {
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: greenyellow;
+  line-height: 1em;
+}
+
+.post-card__link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1em;
+  text-decoration: none;
+}
+
+.post-card__link:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,59 @@
+.detailed-page {
+  display: flex;
+  max-width: 1920px;
+  padding: 25px;
+}
+
+.detailed-page__btn {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  width: 80px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px greenyellow solid;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.detailed-page__btn:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.detailed-page__img {
+  border-radius: 5%;
+  max-width: 480px;
+}
+
+.detailed-page__container {
+  padding: 25px;
+}
+
+.detailed-page__title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1em;
+}
+
+.detailed-page__autor {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: greenyellow;
+  line-height: 1em;
+}
+
+.detailed-page__text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.3em;
+}
