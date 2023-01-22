@@ -48,10 +48,10 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          path="/"
+          path="/dk-frontend"
           element={<HomePages newArr={newArr} onClick={handleCardClick} />}
         />
-        <Route path="/details" element={<DetailedPage card={selectedCard} />} />
+        <Route path="/dk-frontend/details" element={<DetailedPage card={selectedCard} />} />
       </Routes>
     </div>
   );

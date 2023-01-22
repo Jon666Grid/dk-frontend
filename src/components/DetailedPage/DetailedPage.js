@@ -8,7 +8,7 @@ function DetailedPage(props) {
   console.log(props)
   return (
     <section className="detailed-page">
-      <Link to='/' className="detailed-page__btn">Go Back</Link>
+      <Link to='/dk-frontend' className="detailed-page__btn">Go Back</Link>
       <img className="detailed-page__img" src={pictures} alt="картинка" />
       <div className="detailed-page__container">
         <h2 className="detailed-page__title">{props.card.title[0].toUpperCase() + props.card.title.slice(1)}</h2>

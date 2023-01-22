@@ -9,7 +9,7 @@ function PostCard(props) {
 
   return (
     <li className="post-card">
-      <Link to="/details">
+      <Link to="/dk-frontend/details">
         <img
           className="post-card__img"
           src={props.pictures}
@@ -22,7 +22,7 @@ function PostCard(props) {
           {props.item.title[0].toUpperCase() + props.item.title.slice(1)}
         </h2>
         <p className="post-card__autor">Author: {props.item.name}</p>
-        <Link className="post-card__link" to="/details" onClick={handleClick}>
+        <Link className="post-card__link" to="/dk-frontend/details" onClick={handleClick}>
           &#9658; the details
         </Link>
       </div>
