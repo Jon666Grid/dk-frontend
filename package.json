@@ -1,7 +1,7 @@
 {
   "name": "dk-frontend",
   "version": "0.1.0",
-  "homepage": "https://jon666grid.github.io/dk-frontend/",
+  "homepage": "https://jon666grid.github.io/dk-frontend",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./HomePages.scss";
 import PostCard from "../PostCard/PostCard";
 import { pictures } from "../../utils/Api";
-import DetailedPage from "../DetailedPage/DetailedPage";
 
 function HomePages(props) {
   const [postsCount, setPostsCount] = useState([]);
